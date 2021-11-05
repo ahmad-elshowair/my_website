@@ -161,6 +161,11 @@ nav a.navbar-brand img {
   margin-bottom: 2rem;
   color: #085f63;
 }
+.about h6 {
+  font-weight: bold;
+  margin-left: 25px;
+  color: #a78787;
+}
 
 .about h3.text-info {
   padding-bottom: 10px;
