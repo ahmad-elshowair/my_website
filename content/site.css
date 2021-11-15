@@ -293,15 +293,23 @@ nav a.navbar-brand img {
 
 .showcase-section img.img-thumbnail {
   transition: all ease-in-out 0.5s;
-  box-shadow: 0 0 10px #2a2eb5;
 }
 
 .showcase-section img.img-thumbnail:hover {
-  transform: rotate3d(0.9, 0.5, 0, 15deg);
+  transform: scale3d(1.08, 1.08, 1.08);
+  border: none;
   box-shadow: none;
 }
 
-.showcase-section .image h4::after {
+.showcase-section .image {
+  overflow: hidden;
+  transition: box-shadow ease-in-out 0.5s;
+}
+.showcase-section .image:hover {
+  box-shadow: 0px 12px 20px #7f8199;
+}
+
+.showcase-section h4::after {
   content: "\f25a";
   font-family: "Font Awesome 5 Free";
   display: block;
@@ -310,7 +318,7 @@ nav a.navbar-brand img {
   transition: all ease-in-out 0.5s;
 }
 
-.showcase-section .image h4:hover::after {
+.showcase-section h4:hover::after {
   transform: rotate(180deg);
 }
 
@@ -756,6 +764,13 @@ nav a.navbar-brand img {
     width: 50%;
   }
   /* end about section style */
+
+  /* +++++++++++++++++++++ START SHOWCASE SECTION STYLE +++++++++++++++++++++ */
+  .showcase-section h4 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  /* +++++++++++++++++++++ START SHOWCASE SECTION STYLE +++++++++++++++++++++ */
 
   /* start contact section style */
   .contact-section h1.under-line {
