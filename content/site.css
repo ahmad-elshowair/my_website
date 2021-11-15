@@ -195,7 +195,7 @@ nav a.navbar-brand img {
 
 .about .progress .progress-bar.bg-success::after {
   background-color: #28a745;
-  right: 65px;
+  right: 10%;
   width: 20px;
   height: 20px;
   content: "90%";
@@ -203,7 +203,7 @@ nav a.navbar-brand img {
   line-height: 20px;
 }
 .about .progress .progress-bar.bg-info::after {
-  right: 121px;
+  right: 20%;
   width: 20px;
   height: 20px;
   content: "80%";
@@ -212,10 +212,10 @@ nav a.navbar-brand img {
   background-color: #17a2b8;
 }
 .about .progress .progress-bar.bg-warning::after {
-  right: 176px;
+  right: 15%;
   width: 20px;
   height: 20px;
-  content: "70%";
+  content: "85%";
   font-size: 9px;
   line-height: 20px;
   background-color: #ffc107;
@@ -234,11 +234,20 @@ nav a.navbar-brand img {
   right: 120px;
   width: 20px;
   height: 20px;
-  content: "80%";
+  content: "70%";
   font-size: 9px;
   line-height: 20px;
 }
 
+.about .progress .progress-bar.bg-secondary::after {
+  right: 30%;
+  width: 20px;
+  height: 20px;
+  content: "70%";
+  font-size: 9px;
+  line-height: 20px;
+  background-color: #6c757d;
+}
 .about .progress-wrap h6::before {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
@@ -472,21 +481,6 @@ nav a.navbar-brand img {
     margin-bottom: 60px;
   }
 
-  .about .progress .progress-bar.bg-success::after {
-    right: 50px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 88px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 125px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 105px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 88px;
-  }
   /* end about section style */
 
   /*start portfolio section style*/
@@ -568,21 +562,6 @@ nav a.navbar-brand img {
     margin-bottom: 60px;
   }
 
-  .about .progress .progress-bar.bg-success::after {
-    right: 59px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 105px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 145px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 110px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 105px;
-  }
   /* end about section style */
 
   /*start portfolio section style*/
@@ -665,22 +644,6 @@ nav a.navbar-brand img {
   .about .education {
     margin-bottom: 60px;
   }
-
-  .about .progress .progress-bar.bg-success::after {
-    right: 60px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 105px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 150px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 127px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 105px;
-  }
   /* end about section style*/
 
   /*start portfolio section style*/
@@ -756,22 +719,6 @@ nav a.navbar-brand img {
   .about h1.under-line::after {
     width: 50%;
   }
-
-  .about .progress .progress-bar.bg-success::after {
-    right: 45px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 80px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 110px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 95px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 70px;
-  }
   /* end about section style*/
 
   /*start portfolio section style*/
@@ -807,22 +754,6 @@ nav a.navbar-brand img {
   /* start about section style */
   .about h1.under-line::after {
     width: 50%;
-  }
-
-  .about .progress .progress-bar.bg-success::after {
-    right: 59px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 104px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 149px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 127px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 104px;
   }
   /* end about section style */
 
