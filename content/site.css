@@ -481,21 +481,6 @@ nav a.navbar-brand img {
     margin-bottom: 60px;
   }
 
-  .about .progress .progress-bar.bg-success::after {
-    right: 50px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 88px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 125px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 105px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 88px;
-  }
   /* end about section style */
 
   /*start portfolio section style*/
@@ -577,21 +562,6 @@ nav a.navbar-brand img {
     margin-bottom: 60px;
   }
 
-  .about .progress .progress-bar.bg-success::after {
-    right: 59px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 105px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 145px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 110px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 105px;
-  }
   /* end about section style */
 
   /*start portfolio section style*/
@@ -674,22 +644,6 @@ nav a.navbar-brand img {
   .about .education {
     margin-bottom: 60px;
   }
-
-  .about .progress .progress-bar.bg-success::after {
-    right: 60px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 105px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 150px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 127px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 105px;
-  }
   /* end about section style*/
 
   /*start portfolio section style*/
@@ -765,22 +719,6 @@ nav a.navbar-brand img {
   .about h1.under-line::after {
     width: 50%;
   }
-
-  .about .progress .progress-bar.bg-success::after {
-    right: 45px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 42px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 110px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 95px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 70px;
-  }
   /* end about section style*/
 
   /*start portfolio section style*/
@@ -816,22 +754,6 @@ nav a.navbar-brand img {
   /* start about section style */
   .about h1.under-line::after {
     width: 50%;
-  }
-
-  .about .progress .progress-bar.bg-success::after {
-    right: 59px;
-  }
-  .about .progress .progress-bar.bg-info::after {
-    right: 104px;
-  }
-  .about .progress .progress-bar.bg-warning::after {
-    right: 149px;
-  }
-  .about .progress .progress-bar.bg-danger::after {
-    right: 127px;
-  }
-  .about .progress .progress-bar.bg-primary::after {
-    right: 104px;
   }
   /* end about section style */
 
