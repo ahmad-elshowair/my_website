@@ -287,6 +287,13 @@ nav a.navbar-brand img {
   background-color: #fdf5f5;
 }
 
+.showcase-section .showcases_box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 40px;
+  row-gap: 60px;
+}
+
 .showcase-section h2.under-line::after {
   width: 100%;
 }
