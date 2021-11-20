@@ -294,6 +294,11 @@ nav a.navbar-brand img {
   row-gap: 60px;
 }
 
+.showcase-section .showcases_box .box {
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px #eee;
+}
 .showcase-section h2.under-line::after {
   width: 100%;
 }
