@@ -261,7 +261,7 @@ nav a.navbar-brand img {
 
 .showcase-section {
   padding: 60px;
-  background-color: #fdf5f5;
+  background: linear-gradient(to bottom, #fffde8 0%, #fdf5f5 100%);
 }
 
 .showcase-section .showcases_box {
@@ -359,7 +359,7 @@ nav a.navbar-brand img {
 /* start contact section style */
 .contact-section {
   padding: 40px 0 0 0;
-  background-color: #d3e3fb;
+  background: linear-gradient(to bottom, #fdf5f5 0%, #99ccff 100%);
 }
 
 .contact-section h1.under-line {
