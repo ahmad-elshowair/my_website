@@ -299,6 +299,28 @@ nav a.navbar-brand img {
   border-radius: 20px;
   box-shadow: 0 0 10px #eee;
 }
+
+.showcase-section .showcases_box .box h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.showcase-section .showcases_box .box .links_box a {
+  color: #d7c9c9;
+}
+
+.showcase-section .showcases_box .box .links_box a:hover .fa-github {
+  color: #6e5494;
+}
+
+.showcase-section .showcases_box .box .links_box a:hover .fa-external-link-alt {
+  color: #000000;
+}
+
+.showcase-section .showcases_box .box .links_box a:first-child {
+  margin-right: 30px;
+}
+
 .showcase-section h2.under-line::after {
   width: 100%;
 }
