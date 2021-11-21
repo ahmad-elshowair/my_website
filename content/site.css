@@ -128,6 +128,27 @@ nav a.navbar-brand img {
     border-color: #d1d1d6;
   }
 }
+
+.waves {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.waves svg {
+  position: relative;
+  display: block;
+  width: calc(195% + 1.3px);
+  height: 124px;
+}
+
+.waves .shape-fill {
+  fill: #fffde8;
+}
 /* end video style */
 
 /* start section about style */
