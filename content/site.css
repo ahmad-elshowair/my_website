@@ -36,7 +36,7 @@ nav a.navbar-brand img {
 }
 
 .navbar .navbar-toggler {
-  border-color: #0d0c11;
+  border-color: #fff;
 }
 
 .navbar .navbar-nav .nav-item {
@@ -468,9 +468,20 @@ nav a.navbar-brand img {
 @media (min-width: 400px) and (max-width: 490px) {
   /* start navbar style */
   nav.navbar {
-    background-color: #9298a0d4;
+    background-color: rgb(146 152 160 / 24%);
+    backdrop-filter: blur(30px);
+    padding: 10px 20px;
+    border-bottom: 1px solid transparent;
+    background-clip: border-box;
+  }
+  nav a.navbar-brand {
+    width: 75px;
+    height: 75px;
   }
 
+  .navbar-collapse {
+    margin-top: 20px;
+  }
   .navbar .navbar-nav .nav-link:focus::after,
   .navbar .navbar-nav .nav-link.active::after,
   .navbar .navbar-nav .nav-link:focus::after,
@@ -550,9 +561,21 @@ nav a.navbar-brand img {
 @media (min-width: 491px) and (max-width: 575.98px) {
   /* start navbar style */
   nav.navbar {
-    background-color: #9298a0d4;
+    background-color: rgb(146 152 160 / 24%);
+    backdrop-filter: blur(30px);
+    padding: 10px 20px;
+    border-bottom: 1px solid transparent;
+    background-clip: border-box;
   }
 
+  nav a.navbar-brand {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navbar-collapse {
+    margin-top: 20px;
+  }
   .navbar .navbar-nav .nav-link:focus::after,
   .navbar .navbar-nav .nav-link.active::after,
   .navbar .navbar-nav .nav-link:focus::after,
@@ -628,7 +651,20 @@ nav a.navbar-brand img {
 @media (min-width: 576px) and (max-width: 767px) {
   /* start navbar style */
   nav.navbar {
-    background-color: #9298a0d4;
+    background-color: rgb(146 152 160 / 24%);
+    backdrop-filter: blur(30px);
+    padding: 10px 20px;
+    border-bottom: 1px solid transparent;
+    background-clip: border-box;
+  }
+
+  nav a.navbar-brand {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navbar-collapse {
+    margin-top: 20px;
   }
 
   .navbar .navbar-nav .nav-link:focus::after,
@@ -703,7 +739,20 @@ nav a.navbar-brand img {
 @media (min-width: 768px) and (max-width: 991.98px) {
   /* start navbar style */
   nav.navbar {
-    background-color: #9298a0d4;
+    background-color: rgb(146 152 160 / 24%);
+    backdrop-filter: blur(30px);
+    padding: 10px 20px;
+    border-bottom: 1px solid transparent;
+    background-clip: border-box;
+  }
+
+  nav a.navbar-brand {
+    width: 75px;
+    height: 75px;
+  }
+
+  .navbar-collapse {
+    margin-top: 20px;
   }
 
   .navbar .navbar-nav .nav-link:focus::after,
