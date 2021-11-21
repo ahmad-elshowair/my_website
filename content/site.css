@@ -82,28 +82,25 @@ nav a.navbar-brand img {
 /* start video style */
 .main-holder-video {
   height: 100vh;
+  position: relative;
 }
 
-.main-holder-video .video-wrap {
+.main-holder-video video {
   position: absolute;
-  top: 0;
   left: 0;
+  top: 0;
+  height: 100%;
   width: 100%;
-  height: 100vh;
-  overflow: hidden;
-}
-
-.main-holder-video .video-wrap video {
-  height: auto;
-  min-width: 100%;
+  object-fit: cover;
 }
 
 .main-holder-video > .overlay {
-  height: 100vh;
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
-  z-index: 1;
-  background: rgba(1, 5, 6, 0.48);
+  background-color: #545168;
+  mix-blend-mode: overlay;
 }
 
 .main-holder-video .title {
@@ -445,19 +442,6 @@ nav a.navbar-brand img {
 /* end contact section style */
 
 /* start media query style*/
-@media (min-aspect-ratio: 16/9) {
-  .main-holder-video .video-wrap video {
-    width: 100%;
-    height: auto;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .main-holder-video .video-wrap video {
-    width: auto;
-    height: 100%;
-  }
-}
 
 /* Start extra small devices (portrait phones, less than 576pc) */
 @media (min-width: 400px) and (max-width: 490px) {
@@ -484,15 +468,6 @@ nav a.navbar-brand img {
     font-size: 1rem;
   }
 
-  .main-holder-video .video-wrap video {
-    display: none;
-  }
-  .main-holder-video .video-wrap {
-    background-image: url("../image & video/header\ bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
   /* end video section style*/
 
   /* start about section style */
@@ -565,15 +540,6 @@ nav a.navbar-brand img {
     font-size: 18px;
   }
 
-  .main-holder-video .video-wrap video {
-    display: none;
-  }
-  .main-holder-video .video-wrap {
-    background-image: url("../image & video/header\ bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
   /* end video section style*/
 
   /* start about section style */
@@ -651,16 +617,6 @@ nav a.navbar-brand img {
   .main-holder-video .title h2 {
     font-size: 18px;
   }
-
-  .main-holder-video .video-wrap video {
-    display: none;
-  }
-  .main-holder-video .video-wrap {
-    background-image: url("../image & video/header\ bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
   /* end header section style*/
 
   /* start about section style*/
@@ -737,15 +693,6 @@ nav a.navbar-brand img {
     font-size: 1.5rem;
   }
 
-  .main-holder-video .video-wrap video {
-    display: none;
-  }
-  .main-holder-video .video-wrap {
-    background-image: url("../image & video/header\ bg.jpg");
-    background-size: cover;
-    background-attachment: fixed;
-    background-position: center;
-  }
   /* end header section style*/
 
   /* start about section style*/
