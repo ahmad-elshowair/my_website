@@ -514,7 +514,7 @@ nav a.navbar-brand img {
     font-size: 22px;
     font-weight: bold;
   }
-  .showcase-section h4 {
+  .showcase-section .showcases_box .box h4 {
     font-size: 0.8rem;
     font-weight: 600;
   }
