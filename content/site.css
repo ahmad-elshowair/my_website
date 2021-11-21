@@ -469,6 +469,7 @@ nav a.navbar-brand img {
   /* start navbar style */
   nav.navbar {
     background-color: #9298a0d4;
+    padding: 10px 20px;
   }
 
   .navbar .navbar-nav .nav-link:focus::after,
