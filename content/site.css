@@ -468,8 +468,11 @@ nav a.navbar-brand img {
 @media (min-width: 400px) and (max-width: 490px) {
   /* start navbar style */
   nav.navbar {
-    background-color: #9298a0d4;
+    background-color: rgb(146 152 160 / 24%);
+    backdrop-filter: blur(30px);
     padding: 10px 20px;
+    border-bottom: 1px solid transparent;
+    background-clip: border-box;
   }
   nav a.navbar-brand {
     width: 75px;
