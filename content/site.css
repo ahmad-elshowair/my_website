@@ -475,6 +475,10 @@ nav a.navbar-brand img {
     width: 75px;
     height: 75px;
   }
+
+  .navbar-collapse {
+    margin-top: 20px;
+  }
   .navbar .navbar-nav .nav-link:focus::after,
   .navbar .navbar-nav .nav-link.active::after,
   .navbar .navbar-nav .nav-link:focus::after,
