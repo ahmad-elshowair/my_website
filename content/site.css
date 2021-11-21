@@ -507,6 +507,10 @@ nav a.navbar-brand img {
   /* end about section style */
 
   /*start portfolio section style*/
+  .showcase-section {
+    padding: 30px;
+  }
+
   .showcase-section h4 {
     font-size: 0.8rem;
     font-weight: 600;
