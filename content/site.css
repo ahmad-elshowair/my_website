@@ -510,6 +510,9 @@ nav a.navbar-brand img {
   .showcase-section {
     padding: 30px;
   }
+  .showcase-section .showcases_box {
+    grid-template-columns: repeat(1, 1fr);
+  }
   .showcase-section h2 {
     font-size: 22px;
     font-weight: bold;
