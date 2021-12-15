@@ -16,15 +16,43 @@ nav.navbar {
   z-index: 9999;
 }
 
-nav a.navbar-brand {
+.navbar-light .navbar-brand {
   width: 100px;
-  height: 100px;
   padding: 0;
-  transition: all ease-out 0.5s;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #b4c18c;
+  transition: all 0.5s;
+  transition: letter-space 0s;
+  transition-delay: color .3s;
 }
 
-nav a.navbar-brand:hover {
-  transform: scale(1.1);
+.navbar-light .navbar-brand .code {
+  color: #82d4a0;
+  display: inline-block;
+  font-size: 25px;
+  transition: .5s;
+}
+
+.navbar-light .navbar-brand .code:first-child {
+  transform: translateX(-10px);
+}
+
+.navbar-light .navbar-brand .code:last-child {
+  transform: translateX(10px);
+
+}
+
+.navbar-light .navbar-brand:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  color: #06def4;
+  letter-spacing: 0;
+}
+
+.navbar-light .navbar-brand:hover .code {
+  transform: translateX(0);
+  font-size: 30px;
 }
 
 .navbar .navbar-toggler {
