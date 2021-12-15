@@ -7,6 +7,7 @@
 body {
   font-family: "Raleway-Medium";
 }
+
 /* end main body style */
 
 /* start navbar style*/
@@ -15,24 +16,43 @@ nav.navbar {
   z-index: 9999;
 }
 
-nav a.navbar-brand {
+.navbar-light .navbar-brand {
   width: 100px;
-  height: 100px;
   padding: 0;
-  transition: all ease-out 0.5s;
+  font-size: 40px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  color: #b4c18c;
+  transition: all 0.5s;
+  transition: letter-space 0s;
+  transition-delay: color .3s;
 }
 
-nav a.navbar-brand:hover {
-  transform: scale(1.1);
+.navbar-light .navbar-brand .code {
+  color: #82d4a0;
+  display: inline-block;
+  font-size: 25px;
+  transition: .5s;
 }
 
-nav a.navbar-brand img {
-  width: 100%;
-  height: 100%;
-  padding: 2px;
-  border: 1px solid #eee;
-  border-radius: 50%;
-  background-color: #f4e406;
+.navbar-light .navbar-brand .code:first-child {
+  transform: translateX(-10px);
+}
+
+.navbar-light .navbar-brand .code:last-child {
+  transform: translateX(10px);
+
+}
+
+.navbar-light .navbar-brand:hover {
+  transform: scale3d(1.1, 1.1, 1.1);
+  color: #06def4;
+  letter-spacing: 0;
+}
+
+.navbar-light .navbar-brand:hover .code {
+  transform: translateX(0);
+  font-size: 30px;
 }
 
 .navbar .navbar-toggler {
@@ -69,14 +89,15 @@ nav a.navbar-brand img {
   box-shadow: 0px 6px 10px #000;
 }
 
-.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .active>.nav-link,
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
-.navbar-light .navbar-nav .show > .nav-link,
+.navbar-light .navbar-nav .show>.nav-link,
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
   color: #b4c18c;
 }
+
 /* end navbar style  */
 
 /* start video style */
@@ -94,7 +115,7 @@ nav a.navbar-brand img {
   object-fit: cover;
 }
 
-.main-holder-video > .overlay {
+.main-holder-video>.overlay {
   height: 100%;
   width: 100%;
   top: 0;
@@ -120,10 +141,12 @@ nav a.navbar-brand img {
 }
 
 @keyframes typer {
+
   from,
   to {
     border-color: transparent;
   }
+
   50% {
     border-color: #d1d1d6;
   }
@@ -149,6 +172,7 @@ nav a.navbar-brand img {
 .waves .shape-fill {
   fill: #fffde8;
 }
+
 /* end video style */
 
 /* start section about style */
@@ -164,6 +188,7 @@ nav a.navbar-brand img {
   margin-bottom: 2rem;
   color: #085f63;
 }
+
 .about h6 {
   font-weight: bold;
   margin-left: 25px;
@@ -176,6 +201,7 @@ nav a.navbar-brand img {
   border-radius: 50%;
   display: inline-block;
 }
+
 .about .progress-wrap h6 {
   font-size: 0.7rem;
   font-weight: 900;
@@ -205,6 +231,7 @@ nav a.navbar-brand img {
   font-size: 9px;
   line-height: 20px;
 }
+
 .about .progress .progress-bar.bg-info::after {
   right: 20%;
   width: 20px;
@@ -214,6 +241,7 @@ nav a.navbar-brand img {
   line-height: 20px;
   background-color: #17a2b8;
 }
+
 .about .progress .progress-bar.bg-warning::after {
   right: 15%;
   width: 20px;
@@ -223,6 +251,7 @@ nav a.navbar-brand img {
   line-height: 20px;
   background-color: #ffc107;
 }
+
 .about .progress .progress-bar.bg-danger::after {
   background-color: #dc3545;
   right: 148px;
@@ -232,6 +261,7 @@ nav a.navbar-brand img {
   font-size: 9px;
   line-height: 20px;
 }
+
 .about .progress .progress-bar.bg-primary::after {
   background-color: #007bff;
   right: 120px;
@@ -251,6 +281,7 @@ nav a.navbar-brand img {
   line-height: 20px;
   background-color: #6c757d;
 }
+
 .about .progress-wrap h6::before {
   content: "\f105";
   font-family: "Font Awesome 5 Free";
@@ -281,6 +312,7 @@ nav a.navbar-brand img {
   color: #a78787;
   margin-left: 25px;
 }
+
 /* end about section style */
 
 /* start section portfolio style*/
@@ -342,6 +374,7 @@ nav a.navbar-brand img {
   overflow: hidden;
   transition: box-shadow ease-in-out 0.5s;
 }
+
 .showcase-section .image:hover {
   box-shadow: 0px 12px 20px #7f8199;
 }
@@ -377,9 +410,11 @@ nav a.navbar-brand img {
   font-weight: 900;
   transition: all ease-in-out 0.5s;
 }
+
 .showcase-section a.d-inline-block:hover::after {
   margin-left: 20px;
 }
+
 /* start section portfolio style*/
 
 /* start contact section style */
@@ -444,16 +479,19 @@ nav a.navbar-brand img {
   font-family: "Font Awesome 5 Brands";
   color: #0077b5;
 }
+
 .contact-section .facebook:hover::before {
   content: "\f39e";
   font-family: "Font Awesome 5 Brands";
   color: #3b5999;
 }
+
 .contact-section .skype:hover::before {
   content: "\f17e";
   font-family: "Font Awesome 5 Brands";
   color: #00aff0;
 }
+
 .contact-section .whats:hover::before {
   content: "\f232";
   font-family: "Font Awesome 5 Brands";
@@ -466,6 +504,7 @@ nav a.navbar-brand img {
 
 /* Start extra small devices (portrait phones, less than 576pc) */
 @media (min-width: 400px) and (max-width: 490px) {
+
   /* start navbar style */
   nav.navbar {
     background-color: rgb(146 152 160 / 24%);
@@ -474,6 +513,7 @@ nav a.navbar-brand img {
     border-bottom: 1px solid transparent;
     background-clip: border-box;
   }
+
   nav a.navbar-brand {
     width: 75px;
     height: 75px;
@@ -482,6 +522,7 @@ nav a.navbar-brand img {
   .navbar-collapse {
     margin-top: 20px;
   }
+
   .navbar .navbar-nav .nav-link:focus::after,
   .navbar .navbar-nav .nav-link.active::after,
   .navbar .navbar-nav .nav-link:focus::after,
@@ -489,6 +530,7 @@ nav a.navbar-brand img {
     margin: 0;
     background-color: #1f0e6e;
   }
+
   /* end navbar style */
 
   /* start video section style*/
@@ -521,13 +563,16 @@ nav a.navbar-brand img {
   .showcase-section {
     padding: 30px;
   }
+
   .showcase-section .showcases_box {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .showcase-section h2 {
     font-size: 22px;
     font-weight: bold;
   }
+
   .showcase-section .showcases_box .box h4 {
     font-size: 0.8rem;
     font-weight: 600;
@@ -536,9 +581,11 @@ nav a.navbar-brand img {
   .showcase-section div.col-sm-12:first-child {
     margin-bottom: 5rem;
   }
+
   .showcase-section div.col-sm-12:last-child {
     margin-top: 1rem;
   }
+
   /*start portfolio section style*/
 
   /* start contact section style */
@@ -555,10 +602,12 @@ nav a.navbar-brand img {
   .contact-section .social span {
     font-size: 0.8rem;
   }
+
   /* end contact section style */
 }
 
 @media (min-width: 491px) and (max-width: 575.98px) {
+
   /* start navbar style */
   nav.navbar {
     background-color: rgb(146 152 160 / 24%);
@@ -576,6 +625,7 @@ nav a.navbar-brand img {
   .navbar-collapse {
     margin-top: 20px;
   }
+
   .navbar .navbar-nav .nav-link:focus::after,
   .navbar .navbar-nav .nav-link.active::after,
   .navbar .navbar-nav .nav-link:focus::after,
@@ -583,6 +633,7 @@ nav a.navbar-brand img {
     margin: 0;
     background-color: #1f0e6e;
   }
+
   /* end navbar style */
 
   /* start video section style*/
@@ -624,9 +675,11 @@ nav a.navbar-brand img {
   .showcase-section div.col-sm-12:first-child {
     margin-bottom: 5rem;
   }
+
   .showcase-section div.col-sm-12:last-child {
     margin-top: 1rem;
   }
+
   /*start portfolio section style*/
 
   /* start contact section style */
@@ -643,12 +696,15 @@ nav a.navbar-brand img {
   .contact-section .social span {
     font-size: 0.9rem;
   }
+
   /* end contact section style */
 }
+
 /* End extra small devices (portrait phones, less than 576pc) */
 
 /* start small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767px) {
+
   /* start navbar style */
   nav.navbar {
     background-color: rgb(146 152 160 / 24%);
@@ -674,6 +730,7 @@ nav a.navbar-brand img {
     margin: 0;
     background-color: #1f0e6e;
   }
+
   /* end navbar style */
 
   /* start header section style*/
@@ -684,6 +741,7 @@ nav a.navbar-brand img {
   .main-holder-video .title h2 {
     font-size: 18px;
   }
+
   /* end header section style*/
 
   /* start about section style*/
@@ -698,12 +756,14 @@ nav a.navbar-brand img {
   .about .education {
     margin-bottom: 60px;
   }
+
   /* end about section style*/
 
   /*start portfolio section style*/
   .showcase-section .showcases_box {
     grid-template-columns: repeat(1, 1fr);
   }
+
   .showcase-section h4 {
     font-size: 0.8rem;
     font-weight: 600;
@@ -712,9 +772,11 @@ nav a.navbar-brand img {
   .showcase-section div.col-sm-12:first-child {
     margin-bottom: 5rem;
   }
+
   .showcase-section div.col-sm-12:last-child {
     margin-top: 1rem;
   }
+
   /*start portfolio section style*/
 
   /* start contact section style */
@@ -731,12 +793,15 @@ nav a.navbar-brand img {
   .contact-section .social span {
     font-size: 0.9rem;
   }
+
   /* end contact section style */
 }
+
 /* End small devices (landscape phones, 576px and up) */
 
 /* start medium devices (tablets, 768px and up) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+
   /* start navbar style */
   nav.navbar {
     background-color: rgb(146 152 160 / 24%);
@@ -762,6 +827,7 @@ nav a.navbar-brand img {
     margin: 0;
     background-color: #1f0e6e;
   }
+
   /* end navbar style */
 
   /* start header section style*/
@@ -780,6 +846,7 @@ nav a.navbar-brand img {
   .about h1.under-line::after {
     width: 50%;
   }
+
   /* end about section style*/
 
   /*start portfolio section style*/
@@ -795,6 +862,7 @@ nav a.navbar-brand img {
     font-size: 0.9rem;
     font-weight: 600;
   }
+
   /*start portfolio section style*/
 
   /* start contact section style */
@@ -810,26 +878,32 @@ nav a.navbar-brand img {
   .contact-section .social span {
     font-size: 0.9rem;
   }
+
   /* end contact section style */
 }
+
 /* end medium devices (tablets, 768px and up) */
 
 /* start Large devices (desktops, 992px and up) */
 @media (min-width: 992px) and (max-width: 1199.98px) {
+
   /* start about section style */
   .about h1.under-line::after {
     width: 50%;
   }
+
   /* end about section style */
 
   /* +++++++++++++++++++++ START SHOWCASE SECTION STYLE +++++++++++++++++++++ */
   .showcase-section .showcases_box {
     grid-template-columns: repeat(2, 1fr);
   }
+
   .showcase-section h4 {
     font-size: 16px;
     font-weight: bold;
   }
+
   /* +++++++++++++++++++++ START SHOWCASE SECTION STYLE +++++++++++++++++++++ */
 
   /* start contact section style */
@@ -845,8 +919,10 @@ nav a.navbar-brand img {
   .contact-section .social span {
     font-size: 0.9rem;
   }
+
   /* end contact section style */
 }
+
 /* end Large devices (desktops, 992px and up) */
 
 /* end media query style*/
@@ -866,4 +942,5 @@ nav a.navbar-brand img {
   margin: auto;
   margin-top: 0.5rem;
 }
+
 /* start my framework style*/
