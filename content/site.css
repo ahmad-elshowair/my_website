@@ -126,19 +126,39 @@ nav.navbar {
 
 .main-holder-video .title {
   position: absolute;
-  top: 60%;
-  left: 10%;
+  top: 35%;
   color: #eee;
+  width: 100%;
+  text-align: center;
+
 }
 
-.main-holder-video .title h2 {
-  color: #06def4;
+.main-holder-video .title .message {
+  display: block;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+
+.main-holder-video .title .message:first-child {
+  margin-bottom: 20px;
+}
+
+.main-holder-video .title .message:last-child {
+  margin-top: 20px;
 }
 
 .main-holder-video .title .txt-type {
   border-right: 5px solid #d1d1d6;
   animation: typer 1s step-end infinite;
+  font-weight: bold;
+  font-size: 4rem;
+  text-transform: uppercase;
 }
+
+/* .main-holder-video .title .txt-type .txt { */
+/* display: block; */
+/* } */
 
 @keyframes typer {
 
