@@ -141,7 +141,7 @@ nav.navbar {
 }
 
 .main-holder-video .title .message:first-child {
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .main-holder-video .title .message:last-child {
@@ -554,12 +554,13 @@ nav.navbar {
   /* end navbar style */
 
   /* start video section style*/
-  .main-holder-video .title h1 {
-    font-size: 1.3rem;
+  .main-holder-video .title .message {
+    font-size: .5rem;
+    font-weight: 600;
   }
 
-  .main-holder-video .title h2 {
-    font-size: 1rem;
+  .main-holder-video .title .txt-type {
+    font-size: 1.5rem;
   }
 
   /* end video section style*/
@@ -657,12 +658,14 @@ nav.navbar {
   /* end navbar style */
 
   /* start video section style*/
-  .main-holder-video .title h1 {
-    font-size: 25px;
+
+  .main-holder-video .title .message {
+    font-size: .5rem;
+    font-weight: 600;
   }
 
-  .main-holder-video .title h2 {
-    font-size: 18px;
+  .main-holder-video .title .txt-type {
+    font-size: 1.5rem;
   }
 
   /* end video section style*/
@@ -754,12 +757,14 @@ nav.navbar {
   /* end navbar style */
 
   /* start header section style*/
-  .main-holder-video .title h1 {
-    font-size: 1.6rem;
+
+  .main-holder-video .title .message {
+    font-size: .7rem;
+    font-weight: 600;
   }
 
-  .main-holder-video .title h2 {
-    font-size: 18px;
+  .main-holder-video .title .txt-type {
+    font-size: 2rem;
   }
 
   /* end header section style*/
@@ -851,12 +856,13 @@ nav.navbar {
   /* end navbar style */
 
   /* start header section style*/
-  .main-holder-video .title h1 {
-    font-size: 2rem;
+
+  .main-holder-video .title .message {
+    font-size: 1rem;
   }
 
-  .main-holder-video .title h2 {
-    font-size: 1.5rem;
+  .main-holder-video .title .txt-type {
+    font-size: 2.5rem;
   }
 
   /* end header section style*/
